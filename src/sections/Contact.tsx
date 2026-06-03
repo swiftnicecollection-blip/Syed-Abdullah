@@ -19,11 +19,18 @@ const contactInfo = [
     href: 'tel:+923074378307',
   },
   {
+    icon: linkedin,
+    label: 'linkedIn',
+    value: 'Connect on LinkedIn',
+    href: 'https://www.linkedin.com/in/syed-abdullah-8baa41306/',
+  },
+  {
     icon: MapPin,
     label: 'Location',
     value: 'Lahore, Pakistan',
     href: '#',
   },
+  
 ];
 
 export default function Contact() {
