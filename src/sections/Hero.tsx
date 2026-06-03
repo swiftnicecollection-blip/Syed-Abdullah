@@ -164,7 +164,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="assets/profile1.jpg"
+                  src="/profile1.jpg"
                   alt="Syed Abdullah - AI Engineer"
                   className="object-cover w-full h-full"
                 />
