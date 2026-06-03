@@ -102,7 +102,7 @@ export default function Hero() {
               className="opacity-0 text-base text-[#A0A0A0] max-w-[480px] mx-auto lg:mx-0 mb-8 leading-relaxed"
             >
               Building AI-driven solutions with expertise in prompt engineering, NLP, and automation. 
-              Passionate about leveraging Machine Learning and Deep Learning to design intelligent, efficient systems.
+              Passionate about leveraging Machine Learning to design intelligent, efficient systems.
             </p>
 
             <div ref={ctaRef} className="flex flex-wrap justify-center gap-4 opacity-0 lg:justify-start">
