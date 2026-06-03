@@ -104,7 +104,7 @@ export default function Experience() {
         <div className="mb-12">
           <span className="block mb-4 section-label">Professional Experience</span>
           <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-bold leading-[1.15] tracking-[-0.02em] text-white">
-            Where I&apos;ve Worked
+            Career Trajectory
           </h2>
         </div>
 
