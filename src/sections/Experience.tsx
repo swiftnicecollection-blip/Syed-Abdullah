@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const responsibilities = [
   'Gaining hands-on experience in developing and deploying production-ready, AI-driven solutions.',
   'Specializing in prompt engineering, natural language processing (NLP), and workflow automation projects.',
-  'Actively architecting and applying foundational concepts of Machine Learning (ML) and Deep Learning (DL).',
+  'Actively architecting and applying foundational concepts of Machine Learning (ML).',
   'Collaborating within agile team environments to design, test, and optimize intelligent system architectures.',
   'Continuously expanding technical capabilities through deep, practical project involvement.',
 ];
