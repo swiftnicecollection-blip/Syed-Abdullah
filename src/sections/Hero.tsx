@@ -110,7 +110,7 @@ export default function Hero() {
                 onClick={() => scrollToSection('#skills')}
                 className="btn-primary"
               >
-                View Experties
+                View Expertise
               </button>
               <button
                 onClick={() => scrollToSection('#contact')}
