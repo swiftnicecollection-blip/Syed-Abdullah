@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,8 +19,8 @@ const contactInfo = [
     href: 'tel:+923074378307',
   },
   {
-    icon: linkedin,
-    label: 'linkedIn',
+    icon: Linkedin, 
+    label: 'LinkedIn', 
     value: 'Connect on LinkedIn',
     href: 'https://www.linkedin.com/in/syed-abdullah-8baa41306/',
   },
@@ -30,7 +30,6 @@ const contactInfo = [
     value: 'Lahore, Pakistan',
     href: '#',
   },
-  
 ];
 
 export default function Contact() {
@@ -98,6 +97,8 @@ export default function Contact() {
                   key={item.label}
                   href={item.href}
                   className="flex items-center gap-4 group"
+                  target={item.label === 'LinkedIn' ? '_blank' : '_self'}
+                  rel={item.label === 'LinkedIn' ? 'noopener noreferrer' : undefined}
                   onClick={(e) => {
                     if (item.href === '#') e.preventDefault();
                   }}
