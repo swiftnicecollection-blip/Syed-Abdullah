@@ -19,10 +19,10 @@ const skillsData = [
     description: 'Professional video editing and AI-powered video generation',
   },
   {
-    name: 'Machine Learning & Deep Learning',
+    name: 'Machine Learning',
     percentage: 90,
     icon: 'Cpu',
-    description: 'Building and deploying ML/DL models for real-world applications',
+    description: 'Building and deploying ML models for real-world applications',
   },
   {
     name: 'AI Video Generation',
