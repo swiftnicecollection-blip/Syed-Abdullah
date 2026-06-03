@@ -128,7 +128,7 @@ export default function About() {
                 I am an AI Engineer with proven experience in developing and deploying AI-driven solutions. 
                 Skilled in prompt engineering, natural language processing, and automation, with strong 
                 expertise in optimizing large language models. Currently expanding my deep tech stack in 
-                Machine Learning (ML) and Deep Learning (DL) while continuously pursuing professional growth.
+                Machine Learning (ML) while continuously pursuing professional growth.
               </p>
               <p className="text-base text-[#A0A0A0] leading-relaxed">
                 I am passionate about leveraging artificial intelligence to design intelligent, efficient, 
